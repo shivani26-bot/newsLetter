@@ -37,7 +37,7 @@ app.post("/", function(req,res){
    const url="https://us21.api.mailchimp.com/3.0/lists/89799a764c";
    const options ={
      method: "POST",
-     auth :"shivani1:036e2f3cdee97b5b2284b2acd4e9582a-us21"
+     auth :"shivani1:97e6c5f36c9a61cde28b89025459f78e-us21"
    }
   const request= https.request(url,options,function(response){
     // if(response.statusCode===200){
